@@ -1,41 +1,42 @@
-# Base image
-FROM node:20.15.0 as base
+# ---------- Base Stage ----------
+FROM node:20.15.0 AS base
 
-# Create app directory
+# Set working directory
 WORKDIR /usr/src/app
 
-# Bundle app source
+# Copy app files
 COPY . .
 
-# Install app dependencies
-RUN npm install --omit=dev
+# Install dependencies
+RUN npm install
 
-# Execute test cases and stop build if fails
-# RUN npm run test || exit 1
-
-# Generate Prisma Schemas
+# Generate Prisma client
 RUN npm run prisma:generate
 
-# Push DB Schema to DB
-RUN npx prisma db push
-
-# Run Seeder
-RUN npx prisma db seed
-
-
-# Creates a "dist" folder with the production build
+# Build TypeScript
 RUN npm run build
 
-# Prod-Ready Image
-FROM node:20.15.0 as prod
-RUN mkdir dist node_modules
 
+# ---------- Production Stage ----------
+FROM node:20.15.0 AS prod
+
+WORKDIR /usr/src/app
+
+# Timezone (optional)
 ENV TZ="Asia/Kolkata"
-RUN date
 
+# Copy build artifacts
 COPY --from=base /usr/src/app/dist ./dist
 COPY --from=base /usr/src/app/node_modules ./node_modules
 COPY --from=base /usr/src/app/package*.json ./
+COPY --from=base /usr/src/app/prisma ./prisma
 
-# Start the server using the production build
-CMD [ "npm", "run", "start:prod" ]
+# Copy the entrypoint script
+COPY entrypoint.sh ./
+RUN chmod +x entrypoint.sh
+
+# Environment variable to avoid interactive prompts
+ENV NODE_ENV=production
+
+# Start with entrypoint (run migration + start server)
+CMD ["./entrypoint.sh"]
