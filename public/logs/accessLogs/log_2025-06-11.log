@@ -751,3 +751,11 @@ Please make sure your database server is running at `cluster0.u0ugzxy.mongodb.ne
     
         CUSTOM LOGGING AT 2025-06-11 19:40:48 - Provider Factory initialized successfully  ↵  
     
+        CUSTOM LOGGING AT 2025-06-11 20:36:45 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:36:45 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:36:45 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:36:45 - Provider Factory initialized successfully  ↵  
+    
