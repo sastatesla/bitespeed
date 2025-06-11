@@ -813,3 +813,29 @@ Please make sure your database server is running at `cluster0.u0ugzxy.mongodb.ne
     
         CUSTOM LOGGING AT 2025-06-11 20:50:38 - Server is up and running on port: 4000  ↵  
     
+        CUSTOM LOGGING AT 2025-06-11 20:50:38 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:34 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:34 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:34 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:34 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:37 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:37 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:37 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:37 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:40 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:40 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:40 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 20:55:40 - Provider Factory initialized successfully  ↵  
+    
