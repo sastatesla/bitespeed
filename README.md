@@ -86,60 +86,7 @@ Identify a contact by email and/or phone number. Links contacts if identifiers o
 
 > The response lists all unique emails and phone numbers merged for the identified user, with the primary and secondary IDs.
 
-## Project Structure
-
-```
-src/
-  controllers/
-    contact.controller.ts
-  services/
-    contact.service.ts
-  helpers/
-    contact.helpers.ts
-  utils/
-    exceptions.ts
-    ApiResponse.ts
-  configs/
-    config.ts
-  types/
-    identity.types.ts
-prisma/
-  schema.prisma
-.env
-```
-
-## Database Schema
-
-Prisma model for `Contact`:
-
-```prisma
-model Contact {
-  id             Int       @id @default(autoincrement())
-  phoneNumber    String?   @db.VarChar(20)
-  email          String?   @db.VarChar(255)
-  linkedId       Int?
-  linkPrecedence LinkPrecedence @default(primary)
-  createdAt      DateTime  @default(now())
-  updatedAt      DateTime  @updatedAt
-  deletedAt      DateTime?
-
-  linkedContact  Contact?  @relation("ContactLink", fields: [linkedId], references: [id])
-  secondaryContacts Contact[] @relation("ContactLink")
-}
-
-enum LinkPrecedence {
-  primary
-  secondary
-}
-```
-
-## Development
-
-- Code is modularized into controller, service, and helper layers.
-- Uses environment-based config loaded from `.env`.
-- Input validation via Joi.
-- Prisma for DB access and migrations.
 
 ---
-Postman Sample
-![alt text](public/image.png)
+Postman testing
+![Screenshot from 2025-06-11 21-09-31](https://github.com/user-attachments/assets/d6fb6d6f-d65e-427b-9b98-dd84b86d29f1)
