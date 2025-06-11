@@ -285,3 +285,103 @@ Please make sure your database server is running at `cluster0.u0ugzxy.mongodb.ne
     
         CUSTOM LOGGING AT 2025-06-11 15:41:08 - Provider Factory initialized successfully  ↵  
     
+        CUSTOM LOGGING AT 2025-06-11 15:49:49 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:49:49 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:49:49 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:49:49 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:49:49 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:53:50 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:53:50 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:53:50 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:53:50 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:53:50 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:54:27 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:54:27 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:54:27 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:54:27 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:54:27 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:18:47 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:18:47 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:18:47 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:18:47 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:18:47 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:00 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:00 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:00 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:00 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:00 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:03 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:03 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:03 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:03 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:03 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:07 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:07 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:07 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:07 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:07 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:28 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:28 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:28 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:28 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:28 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:37 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:37 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:37 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:37 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:37 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:41 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:41 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:41 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:42 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 16:19:42 - [Prisma] Database connection established successfully.  ↵  
+    

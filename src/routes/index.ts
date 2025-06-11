@@ -1,5 +1,5 @@
 import express from "express"
-import authRoute from "./auth.route"
+import identityRoute from "./identity.route"
 import docsRoute from "./docs.route"
 import config from "../configs/config"
 
@@ -8,9 +8,9 @@ const router = express.Router()
 // Define route configs
 const defaultRoutes = [
 	{
-		name: "authRoute",
-		path: "/auth",
-		route: authRoute
+		name: "identityRoute",
+		path: "/identity",
+		route: identityRoute
 	}
 ]
 
@@ -22,16 +22,7 @@ const devRoutes = [
 	}
 ]
 
-// Mount default routes with debug logs
-defaultRoutes.forEach(({name, path, route}) => {
-	try {
-		console.log(`[Mounting default route] ${name} at path: ${path}`)
-		router.use(path, route)
-	} catch (err) {
-		console.error(`❌ Failed to mount ${name} at path: ${path}`)
-		console.error(err)
-	}
-})
+
 
 // Mount development-only routes with debug logs
 if (config.env === "development") {

@@ -31,7 +31,7 @@ const providersFactory = new ProvidersFactory()
 	}
 })()
 
-// if (config.env !== "test") {
+// if (config.env !== "test") { 
 // 	app.use(morgan.successHandler)
 // 	app.use(morgan.errorHandler)
 // }

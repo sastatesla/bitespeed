@@ -1,1 +1,1 @@
-export {default as authService} from "./auth.service"
+export {default as identityService} from "./identity.service"
