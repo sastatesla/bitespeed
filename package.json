@@ -15,7 +15,7 @@
 		"prisma:seed": "node prisma/seed.js",
 		"migrate:db": "npx prisma migrate dev",
 		"test": "jest",
-		"prepare": "husky install"
+		
 	},
 	"keywords": [],
 	"author": "",
