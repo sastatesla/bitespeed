@@ -8,20 +8,15 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Install app dependencies
-RUN npm install --omit=dev
-
-# Execute test cases and stop build if fails
-# RUN npm run test || exit 1
+RUN npm install 
 
 # Generate Prisma Schemas
 RUN npm run prisma:generate
 
+RUN npx prisma migrate
+
 # Push DB Schema to DB
 RUN npx prisma db push
-
-# Run Seeder
-RUN npx prisma db seed
-
 
 # Creates a "dist" folder with the production build
 RUN npm run build
@@ -38,4 +33,4 @@ COPY --from=base /usr/src/app/node_modules ./node_modules
 COPY --from=base /usr/src/app/package*.json ./
 
 # Start the server using the production build
-CMD [ "npm", "run", "start:prod" ]
+CMD [ "npm", "run", "start" ]
