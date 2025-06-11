@@ -4,7 +4,7 @@ import {password} from "./custom.validation"
 const identity = {
   body: Joi.object({
     email: Joi.string().email().allow(''),
-    phoneNumber: Joi.number().allow(null)
+    phoneNumber: Joi.string().allow('')
   })
   .or('email', 'phoneNumber')
   .messages({

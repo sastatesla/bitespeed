@@ -9,37 +9,24 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id              Int      @id @default(autoincrement())
-  email           String   @unique
-  name            String?
-  password        String
-  role            Role     @default(USER)
-  isEmailVerified Boolean  @default(false)
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-  Token           Token[]
+model Contact {
+  id             Int       @id @default(autoincrement())
+  phoneNumber    String?   @db.VarChar(20)
+  email          String?   @db.VarChar(255)
+  linkedId       Int?      
+  linkPrecedence LinkPrecedence @default(primary)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  deletedAt      DateTime?
+  linkedContact  Contact?  @relation("ContactLink", fields: [linkedId], references: [id])
+  secondaryContacts Contact[] @relation("ContactLink")
+
+  @@index([phoneNumber])
+  @@index([email])
 }
 
-model Token {
-  id          Int       @id @default(autoincrement())
-  token       String
-  type        TokenType
-  expires     DateTime
-  blacklisted Boolean
-  createdAt   DateTime  @default(now())
-  user        User      @relation(fields: [userId], references: [id])
-  userId      Int
+enum LinkPrecedence {
+  primary
+  secondary
 }
 
-enum Role {
-  USER
-  ADMIN
-}
-
-enum TokenType {
-  ACCESS
-  REFRESH
-  RESET_PASSWORD
-  VERIFY_EMAIL
-}

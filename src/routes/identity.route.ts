@@ -9,6 +9,7 @@ const router = express.Router()
 router.post(
 	"/identity",
 	validate(identityValidation.identity),
+	identityController.identify
 )
 
 
