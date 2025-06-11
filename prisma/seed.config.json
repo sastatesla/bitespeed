@@ -1,0 +1,22 @@
+{
+	"Role": [
+		{
+			"where": {"title": "Admin"},
+			"create": {
+				"title": "Admin"
+			}
+		},
+		{
+			"where": {"title": "User"},
+			"create": {
+				"title": "User"
+			}
+		},
+		{
+			"where": {"title": "Manager"},
+			"create": {
+				"title": "Manager"
+			}
+		}
+	]
+}

@@ -1,0 +1,287 @@
+
+        CUSTOM LOGGING AT 2025-06-11 08:40:04 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 08:40:04 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 08:40:04 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:06:25 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:06:25 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:06:25 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:08 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:08 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:09 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:12 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:12 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:12 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:34 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:34 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:29:34 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:30:21 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:30:21 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:30:22 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:31:32 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:31:32 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:31:32 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:31:53 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:35:40 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:37:16 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:37:23 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:55:49 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:56:19 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:57:05 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:57:05 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:57:29 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:57:38 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:57:38 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:59:01 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 09:59:01 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:00:13 - Prisma client created for: newTest with URL: mongodb://itsamaanansari:amaan123@@cluster0.u0ugzxy.mongodb.net:5432/newTest?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:00:13 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:00:13 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:00:41 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:00:41 - Prisma client created for: newTest with URL: mongodb://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net:5432/newTest?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:00:41 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:03:31 - Prisma client created for: newTest with URL: mongodb://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net:/newTest?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:03:31 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:03:31 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:03:47 - Prisma client created for: newTest with URL: mongodb://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:03:47 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:03:47 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:04:41 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:04:41 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:04:41 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:13 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:13 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:13 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:13 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:38 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:38 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:38 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:05:38 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:14 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:21 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:21 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:21 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:21 - Connected to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:43 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:43 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:43 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:43 - Provider Factory to database  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:47 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:47 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:47 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:47 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:52 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:52 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:52 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:52 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:55 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:55 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:55 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:06:55 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:00 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:00 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:00 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:00 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:05 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:05 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:05 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:05 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:20 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:20 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:20 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:20 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:23 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:23 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:23 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:23 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:48 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:48 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:48 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 10:07:48 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:52:42 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:52:42 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:52:42 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:52:57 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:52:57 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:36 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:36 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:36 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:36 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:36 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:57 - Prisma client created for: newTest with URL: mongodb+srv://itsamaanansari:amaan123@cluster0.u0ugzxy.mongodb.net/newTest?retryWrites=true&w=majority  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:57 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:57 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:57 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 11:55:57 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:01:56 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:01:56 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:01:56 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:01:56 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:36 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:36 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:36 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:36 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:42 - Prisma client initialized for: newTest  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:42 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:42 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 12:02:42 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:39:14 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:39:14 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:39:45 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:39:45 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:39:45 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:39:45 - [Prisma] Database connection error: Can't reach database server at `cluster0.u0ugzxy.mongodb.net:5432`
+
+Please make sure your database server is running at `cluster0.u0ugzxy.mongodb.net:5432`.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:40:28 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:40:28 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:40:28 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:40:28 - [Prisma] Database connection error: Can't reach database server at `cluster0.u0ugzxy.mongodb.net:5432`
+
+Please make sure your database server is running at `cluster0.u0ugzxy.mongodb.net:5432`.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:40:28 - Provider Factory initialized successfully  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:41:07 - Prisma client created for: testdb with URL: postgres://amaan:ansari@localhost:5432/testdb?schema=public  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:41:07 - Prisma client initialized for: testdb  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:41:07 - Server is up and running on port: 4000  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:41:08 - [Prisma] Database connection established successfully.  ↵  
+    
+        CUSTOM LOGGING AT 2025-06-11 15:41:08 - Provider Factory initialized successfully  ↵  
+    
