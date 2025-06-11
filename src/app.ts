@@ -7,7 +7,7 @@ import httpStatus from "http-status"
 import config from "./configs/config"
 // import morgan from "./configs/morgan"
 import xss from "./middlewares/xss"
-import {jwtStrategy} from "./configs/passport"
+// import {jwtStrategy} from "./configs/passport"
 import {authLimiter} from "./middlewares/rateLimiter"
 import routes from "./routes"
 import {ApiResponse} from "./utils/ApiResponse"
@@ -18,6 +18,7 @@ const app = express()
 const port: number = parseInt(process.env.PORT as string) || 5002
 
 import {ProvidersFactory} from "./utils/ProvidersFactory"
+import { errorHandler } from "./middlewares/errorHandler"
 
 const providersFactory = new ProvidersFactory()
 ;(async () => {
@@ -54,8 +55,8 @@ app.use(compression())
 app.use(cors())
 app.options("*", cors())
 
-app.use(passport.initialize())
-passport.use("jwt", jwtStrategy)
+// app.use(passport.initialize())
+// passport.use("jwt", jwtStrategy)
 
 // limit repeated failed requests to auth endpoints
 if (config.env === "production") {
@@ -65,13 +66,14 @@ if (config.env === "production") {
 // v1 api routes
 app.use("/v1", routes)
 
-// (app._router?.stack || []).forEach((middleware: any) => {
-//   if (middleware.route) {
-//     const path = middleware.route.path;
-//     const methods = Object.keys(middleware.route.methods).join(', ').toUpperCase();
-//     console.log(`[Route] ${methods} ${path}`);
-//   }
-// });
+app.get("/", (req, res) => {
+	return res.json({
+		success: true,
+		message: `Your server is up and running....${process.pid}`
+	})
+})
+
+app.use(errorHandler)
 
 // send back a 404 error for any unknown api request
 app.use((req: Request, res: Response, next: NextFunction) => {

@@ -9,7 +9,7 @@ const router = express.Router()
 const defaultRoutes = [
 	{
 		name: "identityRoute",
-		path: "/identity",
+		path: "/bitespeed",
 		route: identityRoute
 	}
 ]
@@ -23,16 +23,22 @@ const devRoutes = [
 ]
 
 
+defaultRoutes.forEach(({ name, path, route }) => {
+	try {
+	 
+		router.use(path,  route)
+		console.log(`Mounted ${name} at path: ${path}`)
+	} catch (err:any) {
+	  throw new Error(`Failed to mount ${name} at path: ${path}. Error: ${err.message}`)
+	}
+  })
 
-// Mount development-only routes with debug logs
-if (config.env === "development") {
+  if (config.env === "development") {
 	devRoutes.forEach(({name, path, route}) => {
 		try {
-			console.log(`[Mounting dev route] ${name} at path: ${path}`)
 			router.use(path, route)
-		} catch (err) {
-			console.error(`❌ Failed to mount ${name} at path: ${path}`)
-			console.error(err)
+		} catch (err:any) {
+			throw new Error(`Failed to mount ${name} at path: ${path}.Error: ${err.message}`)
 		}
 	})
 }
