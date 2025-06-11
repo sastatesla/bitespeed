@@ -9,6 +9,8 @@ A robust Node.js (TypeScript + Express + Prisma) API for contact identity manage
 - **Single source of truth**: Always returns the oldest contact as the primary, with all related emails and phone numbers.
 - **Prisma ORM**: PostgreSQL schema for efficient self-linking and deduplication.
 - **Validation**: Uses Joi for environment and input validation.
+- **Logger**: It has custom logger as well.
+
 
 ## Quick Start
 
@@ -66,8 +68,8 @@ Identify a contact by email and/or phone number. Links contacts if identifiers o
 
 ```json
 {
-  "email": "lorraine@hillvalley.edu",
-  "phoneNumber": "123456"
+  "email": "amaan@ansari.dev",
+  "phoneNumber": "9608810232"
 }
 ```
 
@@ -77,8 +79,8 @@ Identify a contact by email and/or phone number. Links contacts if identifiers o
 {
   "contact": {
     "primaryContatctId": 1,
-    "emails": ["lorraine@hillvalley.edu", "mcfly@hillvalley.edu"],
-    "phoneNumbers": ["123456"],
+    "emails": ["ansari@amaan.dev", "ansari@hire.com"],
+    "phoneNumbers": ["9608810232"],
     "secondaryContactIds": [23]
   }
 }
