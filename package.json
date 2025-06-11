@@ -14,7 +14,7 @@
 		"prisma:push": "npx prisma db push",
 		"prisma:seed": "node prisma/seed.js",
 		"migrate:db": "npx prisma migrate dev",
-		"test": "jest",
+		"test": "jest"
 		
 	},
 	"keywords": [],
