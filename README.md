@@ -1,6 +1,6 @@
 # Identity API
 
-A robust Node.js (Express + Prisma) API for contact identity management, supporting contact linking and deduplication by email and phone number.
+A robust Node.js (TypeScript + Express + Prisma) API for contact identity management, supporting smart contact linking and deduplication by email and/or phone number.
 
 ## Features
 
